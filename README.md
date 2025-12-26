@@ -86,4 +86,5 @@ The dataset is a **synthetic dataset generated for practice purposes**, simulati
 Explore the interactive Sales & Delivery dashboard here:  
 
 🔗 **Tableau Public:**  
-https://public.tableau.com/app/profile/oluwatofunmi.olubiyi/viz/Book2_17667665606990/Dashboard1?publish=yes
+
+https://public.tableau.com/app/profile/oluwatofunmi.olubiyi/viz/SalesandDeliveryKPIDashboard/Dashboard1?publish=yes
