@@ -1,13 +1,13 @@
 # Sales & Delivery Dashboard
 
-This project demonstrates the analysis and visualization of sales and delivery data using SQL and Tableau. 
+This project demonstrates the analysis and visualization of sales and delivery data using SQL, Excel, and Tableau.  
 The goal is to provide business insights by tracking key performance indicators (KPIs) such as sales revenue, product performance, delivery efficiency, and regional trends.
 
 ---
 
 ## Dataset Description
 
-The dataset is a **synthetic dataset generated for practice purposes**, simulating an e-commerce companys sales and delivery records. It contains **order-level data**, including:
+The dataset is a **synthetic dataset generated for practice purposes**, simulating an e-commerce company's sales and delivery records. It contains **order-level data** with fields including:
 
 - **Order_ID:** Unique identifier for each order  
 - **Order_Date:** Date the order was placed  
@@ -15,85 +15,75 @@ The dataset is a **synthetic dataset generated for practice purposes**, simulati
 - **Product:** Name of the product ordered  
 - **Category:** Product category (e.g., Electronics, Furniture)  
 - **Quantity:** Number of units ordered  
-- **Sales:** Total sales value of the order (in USD)  
-- **Shipping_Cost:** Cost to ship the order (in USD)  
-- **Region:** Geographic region where the order was shipped (North, South, East, West)  
-- **Delivery_Status:** Whether the order was delivered on time or late  
+- **Sales:** Total sales value (USD)  
+- **Shipping_Cost:** Shipping cost (USD)  
+- **Region:** Geographic region (North, South, East, West)  
+- **Delivery_Status:** On-time or late delivery  
 
-> This dataset allows the demonstration of **aggregation, filtering, grouping, and KPI calculation** using SQL, and **interactive visualization** using Tableau.
+> This dataset allows demonstration of aggregation, filtering, grouping, and KPI calculation using SQL, alongside interactive visualization in Tableau.
 
 ---
 
 ## Tools Used
 
-- **SQL:** Calculating KPIs, aggregations, and summary metrics  
-- **Tableau:** Creating dashboards, charts, and visualizations for insights  
-- **Excel:** Original source of the dataset  
+- **SQL:** KPI calculations, aggregations, summary metrics  
+- **Excel:** Original dataset source and validation  
+- **Tableau:** Interactive dashboards and visualizations  
 
 ---
 
 ## Key Metrics / Dashboard Features
 
-- **Total Sales ($):** Sum of all sales across orders  
-- **Total Quantity (Items):** Total number of products sold, representing inventory movement  
-- **Total Shipping Cost ($):** Sum of shipping expenses for all orders  
-- **Average Delivery Time (Days):** Average number of days between order and delivery  
-- **Sales by Category:** Visual breakdown of sales for each product category (bar chart)  
-- **Delivery Performance:** Count of on-time vs. late deliveries (pie chart)  
-- **Sales Over Time:** Monthly sales trend (line chart)  
-- **Top Products:** Products with highest sales and profit (table)  
-- **Sales by Region:** Total sales per region to identify geographic trends  
-- **Percentage of On-Time Deliveries:** Insight into overall delivery efficiency  
+- **Total Sales ($):** Sum of all sales  
+- **Total Quantity (Items):** Total units sold  
+- **Total Shipping Cost ($):** Sum of shipping expenses  
+- **Average Delivery Time (Days):** Average days between order and delivery  
+- **Sales by Category:** Bar chart breakdown by product category  
+- **Delivery Performance:** Pie chart of on-time vs. late deliveries  
+- **Sales Over Time:** Monthly sales trends (line chart)  
+- **Top Products:** Table of highest sales and profit products  
+- **Sales by Region:** Geographic sales trends  
+- **Percentage of On-Time Deliveries:** Delivery efficiency metric  
 
 ---
 
 ## How to Use
 
-1. Open the SQL script `DashboardMetrics.sql` to generate aggregated metrics  
+1. Run the SQL script `DashboardMetrics.sql` to generate aggregated metrics  
 2. Connect the Tableau workbook to the dataset (`Sheet1$` in Excel)  
-3. Explore KPIs and visualizations: bar charts, pie charts, line charts, and tables  
-4. Use the dashboard to identify trends, top products, and areas for operational improvement  
+3. Explore KPIs and visualizations: bar charts, pie charts, line charts, tables  
+4. Use the dashboard to identify trends, top products, and operational areas for improvement  
 
 ---
 
 ## Project Notes
 
-- The dataset is **AI-generated** for practice purposes; all numbers and dates are illustrative  
-- SQL queries include **comments** explaining each metric for clarity  
-- Dashboard design follows **best practices**: KPIs at the top, charts below, simple and readable visualizations  
-- This project can be adapted to **real-world sales and delivery datasets** for further portfolio development  
+- Dataset is **AI-generated** for practice; data and dates are illustrative  
+- SQL queries include **comments** explaining each metric  
+- Dashboard follows **best practices**: KPIs at top, clear and simple visualizations  
+- Easily adaptable to real-world datasets for further portfolio growth  
 
 ---
 
 ## Optional Improvements
 
-- Adding dynamic filters in Tableau (e.g., by Region or Category)  
-- Highlighting KPIs with color indicators (green for good, red for alerts)  
-- Linking dashboards to live data sources for continuous reporting
+- Add dynamic Tableau filters (e.g., by Region or Category)  
+- KPI color indicators (green for good, red for alerts)  
+- Connect dashboard to live data sources for real-time reporting  
 
-  # Sales and Delivery Dashboard
-
-## Tools
-- SQL
-- Excel
-- Tableau
-
-## Project Overview
-This project analyzes sales and delivery performance.
-SQL was used to extract and aggregate metrics,
-Excel for data validation,
-and Tableau to build an interactive dashboard.
+---
 
 ## Repository Structure
-- SQL/ → SQL queries used for analysis
-- Data/ → Dataset used
-- Tableau/ → Tableau dashboard file
+
+- `SQL/` → SQL queries used for analysis  
+- `Data/` → Dataset files  
+- `Tableau/` → Tableau dashboard file  
+
+---
 
 ## 📊 Live Dashboard
 
-Explore the interactive Sales & Delivery dashboard here:
+Explore the interactive Sales & Delivery dashboard here:  
 
 🔗 **Tableau Public:**  
 https://public.tableau.com/app/profile/oluwatofunmi.olubiyi/viz/Book2_17667665606990/Dashboard1?publish=yes
-
-
