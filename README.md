@@ -69,4 +69,27 @@ The dataset is a **synthetic dataset generated for practice purposes**, simulati
 
 - Adding dynamic filters in Tableau (e.g., by Region or Category)  
 - Highlighting KPIs with color indicators (green for good, red for alerts)  
-- Linking dashboards to live data sources for continuous reporting  
+- Linking dashboards to live data sources for continuous reporting
+
+  # Sales and Delivery Dashboard
+
+## Tools
+- SQL
+- Excel
+- Tableau
+
+## Project Overview
+This project analyzes sales and delivery performance.
+SQL was used to extract and aggregate metrics,
+Excel for data validation,
+and Tableau to build an interactive dashboard.
+
+## Repository Structure
+- SQL/ → SQL queries used for analysis
+- Data/ → Dataset used
+- Tableau/ → Tableau dashboard file
+
+## Dashboard
+Tableau Public:
+https://public.tableau.com/yourname/project
+
