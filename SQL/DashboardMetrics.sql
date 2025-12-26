@@ -97,3 +97,4 @@ SELECT
     COUNT(*) * 100.0 / (SELECT COUNT(*) FROM MyProject..Sheet1$) AS Percentage
 FROM MyProject..Sheet1$
 GROUP BY Delivery_Status;
+
