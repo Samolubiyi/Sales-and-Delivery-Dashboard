@@ -89,7 +89,11 @@ and Tableau to build an interactive dashboard.
 - Data/ → Dataset used
 - Tableau/ → Tableau dashboard file
 
-## Dashboard
-Tableau Public:
-https://public.tableau.com/yourname/project
+## 📊 Live Dashboard
+
+Explore the interactive Sales & Delivery dashboard here:
+
+🔗 **Tableau Public:**  
+https://public.tableau.com/app/profile/oluwatofunmi.olubiyi/viz/Book2_17667665606990/Dashboard1?publish=yes
+
 
