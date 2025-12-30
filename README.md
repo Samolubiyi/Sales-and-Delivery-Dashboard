@@ -1,180 +1,136 @@
-# Sales & Delivery Dashboard
+📊 Sales & Delivery Performance Analysis
 
-This project demonstrates the analysis and visualization of sales and delivery data using SQL, Excel, and Tableau.  
-The goal is to provide business insights by tracking key performance indicators (KPIs) such as sales revenue, product performance, delivery efficiency, and regional trends.
+Business Intelligence Case Study | SQL • Excel • Tableau
 
----
+📌 Business Problem
 
-## Dataset Description
-# Sales & Delivery Dashboard
+Many organizations collect large volumes of sales and delivery data, but decision-makers often struggle with:
 
-This project demonstrates the analysis and visualization of sales and delivery data using SQL, Excel, and Tableau.  
-The goal is to provide business insights by tracking key performance indicators (KPIs) such as sales revenue, product performance, delivery efficiency, and regional trends.
+Fragmented reporting across tools
 
----
+Lack of real-time visibility into sales performance
 
-## Dataset Description
+Limited insight into delivery efficiency and operational risks
 
-The dataset is a **synthetic dataset generated for practice purposes**, simulating an e-commerce company's sales and delivery records. It contains **order-level data** with fields including:
+Inconsistent KPI definitions that slow down decision-making
 
-- **Order_ID:** Unique identifier for each order  
-- **Order_Date:** Date the order was placed  
-- **Delivery_Date:** Date the order was delivered  
-- **Product:** Name of the product ordered  
-- **Category:** Product category (e.g., Electronics, Furniture)  
-- **Quantity:** Number of units ordered  
-- **Sales:** Total sales value (USD)  
-- **Shipping_Cost:** Shipping cost (USD)  
-- **Region:** Geographic region (North, South, East, West)  
-- **Delivery_Status:** On-time or late delivery  
+As a result, leaders are unable to quickly identify performance trends, operational bottlenecks, or areas requiring improvement.
 
-> This dataset allows demonstration of aggregation, filtering, grouping, and KPI calculation using SQL, alongside interactive visualization in Tableau.
+🎯 Project Objective
 
----
+The objective of this project was to design a centralized business intelligence dashboard that provides clear, consistent, and actionable insights into:
 
-## Tools Used
+Sales performance
 
-- **SQL:** KPI calculations, aggregations, summary metrics  
-- **Excel:** Original dataset source and validation  
-- **Tableau:** Interactive dashboards and visualizations  
+Product and category trends
 
----
+Regional performance
 
-## Key Metrics / Dashboard Features
+Delivery efficiency and reliability
 
-- **Total Sales ($):** Sum of all sales  
-- **Total Quantity (Items):** Total units sold  
-- **Total Shipping Cost ($):** Sum of shipping expenses  
-- **Average Delivery Time (Days):** Average days between order and delivery  
-- **Sales by Category:** Bar chart breakdown by product category  
-- **Delivery Performance:** Pie chart of on-time vs. late deliveries  
-- **Sales Over Time:** Monthly sales trends (line chart)  
-- **Top Products:** Table of highest sales and profit products  
-- **Sales by Region:** Geographic sales trends  
-- **Percentage of On-Time Deliveries:** Delivery efficiency metric  
+The dashboard is intended to support data-driven commercial and operational decisions.
 
----
+🗂️ Dataset Overview
 
-## How to Use
+The dataset represents order-level e-commerce sales and delivery records, including:
 
-1. Run the SQL script `DashboardMetrics.sql` to generate aggregated metrics  
-2. Connect the Tableau workbook to the dataset (`Sheet1$` in Excel)  
-3. Explore KPIs and visualizations: bar charts, pie charts, line charts, tables  
-4. Use the dashboard to identify trends, top products, and operational areas for improvement  
+Order and delivery dates
 
----
+Product and category information
 
-## Project Notes
+Quantity and sales value
 
-- Dataset is **AI-generated** for practice; data and dates are illustrative  
-- SQL queries include **comments** explaining each metric  
-- Dashboard follows **best practices**: KPIs at top, clear and simple visualizations  
-- Easily adaptable to real-world datasets for further portfolio growth  
+Shipping cost
 
----
+Geographic region
 
-## Optional Improvements
+Delivery status (on-time vs late)
 
-- Add dynamic Tableau filters (e.g., by Region or Category)  
-- KPI color indicators (green for good, red for alerts)  
-- Connect dashboard to live data sources for real-time reporting  
+Note: The dataset is synthetic and used to simulate real-world business scenarios and analytical workflows.
 
----
+🛠️ Tools & Technologies
 
-## Repository Structure
+SQL – Data aggregation, KPI calculations, and metric standardization
 
-- `SQL/` → SQL queries used for analysis  
-- `Data/` → Dataset files  
-- `Tableau/` → Tableau dashboard file  
+Excel – Data source validation and preprocessing
 
----
+Tableau – Interactive dashboards and visual storytelling
 
-## 📊 Live Dashboard
+📈 Key KPIs & Metrics
 
-Explore the interactive Sales & Delivery dashboard here:  
+The dashboard tracks and standardizes the following core business metrics:
 
-🔗 **Tableau Public:**  
+Total Sales Revenue
 
-https://public.tableau.com/app/profile/oluwatofunmi.olubiyi/viz/SalesandDeliveryKPIDashboard/Dashboard1?publish=yes
+Total Quantity Sold
 
-The dataset is a **synthetic dataset generated for practice purposes**, simulating an e-commerce company's sales and delivery records. It contains **order-level data** with fields including:
+Total Shipping Cost
 
-- **Order_ID:** Unique identifier for each order  
-- **Order_Date:** Date the order was placed  
-- **Delivery_Date:** Date the order was delivered  
-- **Product:** Name of the product ordered  
-- **Category:** Product category (e.g., Electronics, Furniture)  
-- **Quantity:** Number of units ordered  
-- **Sales:** Total sales value (USD)  
-- **Shipping_Cost:** Shipping cost (USD)  
-- **Region:** Geographic region (North, South, East, West)  
-- **Delivery_Status:** On-time or late delivery  
+Average Delivery Time
 
-> This dataset allows demonstration of aggregation, filtering, grouping, and KPI calculation using SQL, alongside interactive visualization in Tableau.
+On-Time Delivery Rate (%)
 
----
+Sales by Category & Product
 
-## Tools Used
+Sales Trends Over Time
 
-- **SQL:** KPI calculations, aggregations, summary metrics  
-- **Excel:** Original dataset source and validation  
-- **Tableau:** Interactive dashboards and visualizations  
+Sales Performance by Region
 
----
+These KPIs were designed to align with typical executive and operational reporting needs.
 
-## Key Metrics / Dashboard Features
+🔍 Analytical Approach
 
-- **Total Sales ($):** Sum of all sales  
-- **Total Quantity (Items):** Total units sold  
-- **Total Shipping Cost ($):** Sum of shipping expenses  
-- **Average Delivery Time (Days):** Average days between order and delivery  
-- **Sales by Category:** Bar chart breakdown by product category  
-- **Delivery Performance:** Pie chart of on-time vs. late deliveries  
-- **Sales Over Time:** Monthly sales trends (line chart)  
-- **Top Products:** Table of highest sales and profit products  
-- **Sales by Region:** Geographic sales trends  
-- **Percentage of On-Time Deliveries:** Delivery efficiency metric  
+Defined clear business KPIs aligned with sales and operations goals
 
----
+Used SQL to calculate and standardize metrics, creating a single source of truth
 
-## How to Use
+Designed intuitive Tableau visualizations following BI best practices
 
-1. Run the SQL script `DashboardMetrics.sql` to generate aggregated metrics  
-2. Connect the Tableau workbook to the dataset (`Sheet1$` in Excel)  
-3. Explore KPIs and visualizations: bar charts, pie charts, line charts, tables  
-4. Use the dashboard to identify trends, top products, and operational areas for improvement  
+Structured the dashboard to surface insights quickly for decision-makers
 
----
+💡 Key Insights Delivered
 
-## Project Notes
+Identified top-performing products and categories driving revenue
 
-- Dataset is **AI-generated** for practice; data and dates are illustrative  
-- SQL queries include **comments** explaining each metric  
-- Dashboard follows **best practices**: KPIs at top, clear and simple visualizations  
-- Easily adaptable to real-world datasets for further portfolio growth  
+Highlighted regional differences in sales performance
 
----
+Measured delivery efficiency through on-time delivery rates and average delivery times
 
-## Optional Improvements
+Surfaced potential operational risks related to delayed deliveries
 
-- Add dynamic Tableau filters (e.g., by Region or Category)  
-- KPI color indicators (green for good, red for alerts)  
-- Connect dashboard to live data sources for real-time reporting  
+📊 Dashboard Features
 
----
+Executive KPI summary section
 
-## Repository Structure
+Sales trends over time (monthly view)
 
-- `SQL/` → SQL queries used for analysis  
-- `Data/` → Dataset files  
-- `Tableau/` → Tableau dashboard file  
+Sales breakdown by category, product, and region
 
----
+Delivery performance analysis (on-time vs late)
 
-## 📊 Live Dashboard
+Interactive filters for deeper exploration
 
-Explore the interactive Sales & Delivery dashboard here:  
+📌 Business Value
 
-🔗 **Tableau Public:**  
+This project demonstrates how data analytics can:
 
+Improve visibility into sales and operations
+
+Reduce reliance on manual reporting
+
+Enable faster, more confident business decisions
+
+Support continuous performance monitoring
+
+🚀 Future Enhancements
+
+Add dynamic filters for region, category, and time
+
+Introduce KPI alert indicators (e.g., delivery SLA breaches)
+
+Extend analysis to profitability and cost optimization
+
+📊 Live Dashboard
+
+🔗 Tableau Public:
 https://public.tableau.com/app/profile/oluwatofunmi.olubiyi/viz/SalesandDeliveryKPIDashboard/Dashboard1?publish=yes
