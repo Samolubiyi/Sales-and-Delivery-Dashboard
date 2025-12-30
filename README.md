@@ -2,23 +2,27 @@
 
 Business Intelligence Case Study | SQL • Excel • Tableau
 
+
+
 📌 Business Problem
 
-Many organizations collect large volumes of sales and delivery data, but decision-makers often struggle with:
+Many organizations collect large volumes of sales and delivery data, yet decision-makers often struggle with:
 
-Fragmented reporting across tools
+Fragmented reporting across multiple tools
 
-Lack of real-time visibility into sales performance
+Limited visibility into sales performance and trends
 
-Limited insight into delivery efficiency and operational risks
+Poor monitoring of delivery efficiency and operational risks
 
 Inconsistent KPI definitions that slow down decision-making
 
-As a result, leaders are unable to quickly identify performance trends, operational bottlenecks, or areas requiring improvement.
+As a result, leaders lack the clarity needed to identify performance issues, optimize operations, and act quickly.
+
+
 
 🎯 Project Objective
 
-The objective of this project was to design a centralized business intelligence dashboard that provides clear, consistent, and actionable insights into:
+The objective of this project was to design a centralized Business Intelligence dashboard that delivers clear, consistent, and actionable insights into:
 
 Sales performance
 
@@ -28,7 +32,9 @@ Regional performance
 
 Delivery efficiency and reliability
 
-The dashboard is intended to support data-driven commercial and operational decisions.
+The dashboard is designed to support data-driven commercial and operational decisions.
+
+
 
 🗂️ Dataset Overview
 
@@ -36,29 +42,33 @@ The dataset represents order-level e-commerce sales and delivery records, includ
 
 Order and delivery dates
 
-Product and category information
+Product and category details
 
-Quantity and sales value
+Quantity sold and sales value
 
 Shipping cost
 
 Geographic region
 
-Delivery status (on-time vs late)
+Delivery status (On-time vs Late)
 
 Note: The dataset is synthetic and used to simulate real-world business scenarios and analytical workflows.
 
+
+
 🛠️ Tools & Technologies
 
-SQL – Data aggregation, KPI calculations, and metric standardization
+SQL – KPI calculations, aggregations, and metric standardization
 
-Excel – Data source validation and preprocessing
+Excel – Dataset validation and preprocessing
 
 Tableau – Interactive dashboards and visual storytelling
 
+
+
 📈 Key KPIs & Metrics
 
-The dashboard tracks and standardizes the following core business metrics:
+The dashboard standardizes and tracks the following business-critical metrics:
 
 Total Sales Revenue
 
@@ -66,27 +76,32 @@ Total Quantity Sold
 
 Total Shipping Cost
 
-Average Delivery Time
+Average Delivery Time (Days)
 
 On-Time Delivery Rate (%)
 
-Sales by Category & Product
+Sales by Product & Category
 
 Sales Trends Over Time
 
 Sales Performance by Region
 
-These KPIs were designed to align with typical executive and operational reporting needs.
+These KPIs align with typical executive and operational reporting needs.
+
+
 
 🔍 Analytical Approach
 
-Defined clear business KPIs aligned with sales and operations goals
+Defined business-relevant KPIs aligned with sales and operations goals
 
 Used SQL to calculate and standardize metrics, creating a single source of truth
 
 Designed intuitive Tableau visualizations following BI best practices
 
 Structured the dashboard to surface insights quickly for decision-makers
+
+
+
 
 💡 Key Insights Delivered
 
@@ -98,23 +113,27 @@ Measured delivery efficiency through on-time delivery rates and average delivery
 
 Surfaced potential operational risks related to delayed deliveries
 
+
+
 📊 Dashboard Features
 
 Executive KPI summary section
 
-Sales trends over time (monthly view)
+Monthly sales trend analysis
 
 Sales breakdown by category, product, and region
 
-Delivery performance analysis (on-time vs late)
+Delivery performance overview (On-time vs Late)
 
-Interactive filters for deeper exploration
+Interactive filters for deeper analysis
+
+
 
 📌 Business Value
 
 This project demonstrates how data analytics can:
 
-Improve visibility into sales and operations
+Improve visibility into sales and operational performance
 
 Reduce reliance on manual reporting
 
@@ -122,15 +141,19 @@ Enable faster, more confident business decisions
 
 Support continuous performance monitoring
 
+
+
 🚀 Future Enhancements
 
 Add dynamic filters for region, category, and time
 
-Introduce KPI alert indicators (e.g., delivery SLA breaches)
+Introduce KPI alert indicators (e.g., SLA breaches)
 
 Extend analysis to profitability and cost optimization
 
+
+
 📊 Live Dashboard
 
-🔗 Tableau Public:
+🔗 Tableau Public
 https://public.tableau.com/app/profile/oluwatofunmi.olubiyi/viz/SalesandDeliveryKPIDashboard/Dashboard1?publish=yes
